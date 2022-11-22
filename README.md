@@ -10,3 +10,6 @@ Unsupervised Mutual Transformer Learning for Gigapixel Whole Slide Image Classif
 (a) Shows the unlabeled WSIs, (b) instances of size 224 × 224 × 3 pixels are extracted, (c) feature extraction head, (d) Transformer Pseudo-Label Generator (TPLG), (e) Transformer pseudo-Label Cleaner (TLC), (f) predicted WSI map where red region shows the positive instances, (g) instance-level label smoothing and slide-level label prediction steps.
 
 
+## Results
+Performance comparison of the proposed algorithm with SOTA methods on the testing splits of CAMELYON-16, TCGALC, and TCGA-RCC datasets. CAMELYON-16 test-set is evaluated for cancer vs. normal WSI classification. TCGA-LC is evaluated for LUAD vs. LUSC WSI subtype cancer classification. TCGA-RCC is evaluated for multi-class cancer subtypes (KIRCH, KIRP, or KIRC) WSI classification
+<img src="docs/resultsCVPRTable.jpg" width="800px" align="center" />
