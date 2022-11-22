@@ -13,3 +13,24 @@ Unsupervised Mutual Transformer Learning for Gigapixel Whole Slide Image Classif
 ## Results
 Performance comparison of the proposed algorithm with SOTA methods on the testing splits of CAMELYON-16, TCGALC, and TCGA-RCC datasets. CAMELYON-16 test-set is evaluated for cancer vs. normal WSI classification. TCGA-LC is evaluated for LUAD vs. LUSC WSI subtype cancer classification. TCGA-RCC is evaluated for multi-class cancer subtypes (KIRCH, KIRP, or KIRC) WSI classification
 <img src="docs/resultsCVPRTable.png" width="800px" align="center" />
+
+
+## Funding
+This work was funded by 
+
+## Reference
+If you find our work useful in your research or if you use parts of this code please consider citing our [paper]():
+
+
+```
+@article{,
+  title={Data-efficient and weakly supervised computational pathology on whole-slide images},
+  author={},
+  journal={},
+  volume={},
+  number={},
+  pages={},
+  year={},
+  publisher={}
+}
+```
