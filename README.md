@@ -8,7 +8,7 @@ however, they still require large-scale slide-level labeled training datasets th
 ##  UMTL System diagram 
 <img src="docs/MainDiagram.jpg" width="1000px" align="center" />
 
-(a) Shows the unlabeled WSIs, (b) instances of size 224 × 224 × 3 pixels are extracted, (c) feature extraction head, (d) Transformer Pseudo-Label Generator (TPLG), (e) Transformer pseudo-Label Cleaner (TLC), (f) predicted WSI map where red region shows the positive instances, (g) instance-level label smoothing and slide-level label prediction steps.
+Training Process: (a) Shows the unlabeled WSIs, (b) instances of size 224 × 224 × 3 pixels are extracted, (c) feature extraction head, (d) Transformer Pseudo-Label Generator (TPLG), (e) Transformer pseudo-Label Cleaner (TLC)
 
 
 ## Results
