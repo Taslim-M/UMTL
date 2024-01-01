@@ -21,6 +21,19 @@ Performance comparison of the proposed algorithm with SOTA methods on the testin
 - pytorch == 1.4.0
 - torchvision
 
+## Using the script
+
+> Note: you need to keep the checkpoint in the root folder with the name tmodel1_epoch_0.pt - which can be updated from main.py
+
+You can run the main.py directly
+```bash
+python main.py 
+```
+The current version of the main.py gives you the Transformation Loss for any images. 
+> Note: all images should be in the images folder (we provide 4 examples for initial testing purpose)
+
+Any image that is larger than the size in config will automatically be decomposed into the size specified.
+
 ## Funding
 This work was funded by 
 
