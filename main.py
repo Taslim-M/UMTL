@@ -1,6 +1,3 @@
-# 2021.05.07-Changed for IPT
-#            Huawei Technologies Co., Ltd. <foss@huawei.com>
-#   python main.py --dir_data CBSD68 --pretrain OldFormat_epoch_4.pt --data_test CBSD68 --scale 1 --denoise
 
 from option import args
 
