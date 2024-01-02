@@ -31,7 +31,7 @@ def main():
         if args.pretrain != "":
             if 's3' in args.pretrain:
                 import moxing as mox
-                mox.file.copy_parallel(args.pretrain,"/cache/models/ipt.pt")
+                mox.file.copy_parallel(args.pretrain,"/cache/models/umtl.pt")
                 args.pretrain = "/cache/models/ipt.pt"
             _model = torch.load(args.pretrain)
             # _model.model.load_state_dict(state_dict,strict = False)

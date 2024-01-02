@@ -42,7 +42,7 @@ parser.add_argument('--no_augment', action='store_true',
                     help='do not use data augmentation')
 
 # Model specifications
-parser.add_argument('--model', default='ipt',
+parser.add_argument('--model', default='umtl',
                     help='model name')
 parser.add_argument('--n_feats', type=int, default=64,
                     help='number of feature maps')

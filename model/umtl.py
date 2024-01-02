@@ -1,7 +1,3 @@
-# 2021.05.07-Changed for IPT
-#            Huawei Technologies Co., Ltd. <foss@huawei.com>
-
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 
 from model import common
 
@@ -13,11 +9,11 @@ from einops import rearrange
 import copy
 
 def make_model(args, parent=False):
-    return ipt(args)
+    return umtl(args)
 
-class ipt(nn.Module):
+class umtl(nn.Module):
     def __init__(self, args, conv=common.default_conv):
-        super(ipt, self).__init__()
+        super(umtl, self).__init__()
         
         self.scale_idx = 0
         
