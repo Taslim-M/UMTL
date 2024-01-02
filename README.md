@@ -25,7 +25,9 @@ Performance comparison of the proposed algorithm with SOTA methods on the testin
 
 > Note: you need to keep the checkpoint in the root folder with the name tmodel1_epoch_0.pt - which can be updated from main.py
 
-You can run the main.py directly
+Extract the patches from WSI at 20x magnification level and run the main.py
+
+You can run the main.py directly:
 ```bash
 python main.py 
 ```
@@ -43,9 +45,9 @@ If you find our work useful in your research or if you use parts of this code pl
 
 ```
 @article{,
-  title={Data-efficient and weakly supervised computational pathology on whole-slide images},
+  title={Unsupervised Mutual Transformer Learning for Gigapixel Whole Slide Image Classification.},
   author={},
-  journal={},
+  journal={Medical Image Analysis},
   volume={},
   number={},
   pages={},
